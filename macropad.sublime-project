@@ -1,0 +1,23 @@
+{
+  "folders": [
+  {
+    "path": ".",
+  },
+  {
+    "path": "/Volumes/CIRCUITPY",
+    "name": "device",
+  },],
+
+  "build_systems": [
+    {
+      "name": "Get Libs",
+      "working_dir": "$project_path",
+      "shell_cmd": "make",
+    },
+    {
+      "name": "rsync to device",
+      "working_dir": "$project_path",
+      "shell_cmd": "make xfer back-copy",
+    }
+  ]
+}

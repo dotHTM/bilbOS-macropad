@@ -1,0 +1,3334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"\"include\""
+			],
+			[
+				"set",
+				"setTitle"
+			],
+			[
+				"label",
+				"_labels"
+			],
+			[
+				"lab",
+				"_labels"
+			],
+			[
+				"sle",
+				"sleepTalking"
+			],
+			[
+				"sp",
+				"sleeping"
+			],
+			[
+				"idl",
+				"idleStart"
+			],
+			[
+				"id",
+				"idleDelta"
+			],
+			[
+				"mono",
+				"monotonic"
+			],
+			[
+				"idle",
+				"idleStart"
+			],
+			[
+				"mon",
+				"monotonic_ns"
+			],
+			[
+				"m",
+				"monotonic_ns"
+			],
+			[
+				"en",
+				"encoder_pressed"
+			],
+			[
+				"clas",
+				"class"
+			],
+			[
+				"hex",
+				"hexValue"
+			],
+			[
+				"so",
+				"someList"
+			],
+			[
+				"Loo",
+				"LoopAnalyzer"
+			],
+			[
+				"sta",
+				"staticmethod"
+			],
+			[
+				"monotoni",
+				"monotonic_ns"
+			],
+			[
+				"color",
+				"colorwheel"
+			],
+			[
+				"key",
+				"key_held_time"
+			],
+			[
+				"he",
+				"key_held_time"
+			],
+			[
+				"_la",
+				"_rawLabelText"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"debug",
+				"DebugPrinter"
+			],
+			[
+				"debu",
+				"DebugPrinter"
+			],
+			[
+				"la",
+				"labelFormat"
+			],
+			[
+				"forma",
+				"formatted_text"
+			],
+			[
+				"form",
+				"formatted_text"
+			],
+			[
+				"Clo",
+				"Colors"
+			],
+			[
+				"Co",
+				"Colors"
+			],
+			[
+				"ma",
+				"macropad"
+			],
+			[
+				"Tile",
+				"TitledGridDisplay"
+			],
+			[
+				"exc",
+				"\"folder_exclude_patterns\""
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"main",
+				"ifmain"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"in",
+				"inner"
+			],
+			[
+				"va",
+				"charvalues"
+			],
+			[
+				"Ke",
+				"KeyboardPage"
+			],
+			[
+				"ass",
+				"assignKeeb"
+			],
+			[
+				"kee",
+				"keebList"
+			],
+			[
+				"stat",
+				"staticmethod"
+			],
+			[
+				"as",
+				"assignKey"
+			],
+			[
+				"on",
+				"onDown="
+			],
+			[
+				"dict",
+				"dictkey"
+			],
+			[
+				"ke",
+				"keyList"
+			],
+			[
+				"func",
+				"FunctionalKey"
+			],
+			[
+				"e",
+				"encoder_pressed"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"enco",
+				"encoder_pressed"
+			],
+			[
+				"k",
+				"keyObjs"
+			],
+			[
+				"len",
+				"length="
+			],
+			[
+				"inp",
+				"inputString"
+			],
+			[
+				"now",
+				"now_now"
+			],
+			[
+				"fun",
+				"FunctionalKey"
+			],
+			[
+				"__re",
+				"__repr__"
+			],
+			[
+				"repla",
+				"replace"
+			],
+			[
+				"name",
+				"nameMap"
+			],
+			[
+				"No",
+				"Notes"
+			],
+			[
+				"if",
+				"ifmain"
+			],
+			[
+				"tone",
+				"toneChange"
+			],
+			[
+				"pla",
+				"playingTone"
+			],
+			[
+				"i",
+				"idleSleeping"
+			],
+			[
+				"de",
+				"defaultOnUp"
+			],
+			[
+				"ti",
+				"titleColor"
+			],
+			[
+				"La",
+				"LabelKey"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"key_",
+				"key_number"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"this",
+				"thisMapping"
+			],
+			[
+				"re",
+				"__repr__"
+			],
+			[
+				"map",
+				"map="
+			],
+			[
+				"it",
+				"iterableObj"
+			],
+			[
+				"pyth",
+				"python_version"
+			],
+			[
+				"try",
+				"try"
+			],
+			[
+				"colo",
+				"Colors"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"bui",
+				"builtins"
+			],
+			[
+				"fu",
+				"__future__"
+			],
+			[
+				"_",
+				"_storage"
+			],
+			[
+				"keycode",
+				"Keycode"
+			],
+			[
+				"scan",
+				"SCAN_NEXT_TRACK"
+			],
+			[
+				"V",
+				"VOLUME_INCREMENT"
+			],
+			[
+				"wo",
+				"\"working_dir\""
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"data",
+				"data="
+			],
+			[
+				"send",
+				"send_email"
+			],
+			[
+				"Date",
+				"datetime"
+			],
+			[
+				"from",
+				"utcfromtimestamp"
+			],
+			[
+				"stal",
+				"staleAge"
+			],
+			[
+				"help",
+				"help="
+			],
+			[
+				"type",
+				"type="
+			],
+			[
+				"ar",
+				"ArgumentParser"
+			],
+			[
+				"Time",
+				"TimeDeltaUtils"
+			],
+			[
+				"del",
+				"del_host"
+			],
+			[
+				"get",
+				"get_sheets"
+			],
+			[
+				"list",
+				"listsContainSameElements"
+			],
+			[
+				"to",
+				"to_dict"
+			],
+			[
+				"dic",
+				"__dict__"
+			],
+			[
+				"aci",
+				"ActiveDevice"
+			],
+			[
+				"print",
+				"print_color"
+			],
+			[
+				"post",
+				"post_host"
+			],
+			[
+				"po",
+				"post_host"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"shee",
+				"sheetUUIDs"
+			],
+			[
+				"inter",
+				"interestedSheets"
+			],
+			[
+				"cat",
+				"categorize_clients"
+			],
+			[
+				"deb",
+				"debug_indenter"
+			],
+			[
+				"ap",
+				"API"
+			],
+			[
+				"res",
+				"restAPIs"
+			],
+			[
+				"load",
+				"loadFn"
+			],
+			[
+				"sum",
+				"summary"
+			],
+			[
+				"su",
+				"summary"
+			],
+			[
+				"acti",
+				"ActiveDevice"
+			],
+			[
+				"du",
+				"dumps"
+			],
+			[
+				"dele",
+				"deleteList"
+			],
+			[
+				"update",
+				"updateList"
+			],
+			[
+				"act",
+				"ActiveDevice"
+			],
+			[
+				"a",
+				"argsEnable"
+			],
+			[
+				"Act",
+				"ActiveDevice"
+			],
+			[
+				"Ac",
+				"ActiveDevice"
+			],
+			[
+				"dev",
+				"devLists"
+			],
+			[
+				"loa",
+				"loads"
+			],
+			[
+				"iso",
+				"isoraCache"
+			],
+			[
+				"prin",
+				"print_function"
+			],
+			[
+				"buil",
+				"builtins"
+			],
+			[
+				"par",
+				"ArgumentParser"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/code.py",
+			"settings":
+			{
+				"buffer_size": 1508,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					17,
+					1,
+					"cut",
+					null,
+					"AQAAAA4GAAAAAAAADgYAAAAAAAAcAAAAaW50KG1lYW4obGEucm9sbGluZ0hpc3RvcnkpKQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAqBgAAAAAAAA4GAAAAAAAAAAAAAAAAW0A"
+				],
+				[
+					18,
+					3,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AwAAAAIGAAAAAAAAAgYAAAAAAAAMAAAAICAgICAgICAgICAgAQYAAAAAAAABBgAAAAAAAAEAAAAK7wUAAAAAAADvBQAAAAAAABIAAAAgICAgICAgICAgICAnYXZnJyw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAOBgAAAAAAAA4GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO4FAAAAAAAA7gUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADvBQAAAAAAAO8FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO4FAAAAAAAA7gUAAAAAAAABAAAALA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADvBQAAAAAAAO8FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAADEFAAAAAAAAMgUAAAAAAAAAAAAAMgUAAAAAAAA6BQAAAAAAAAAAAAAyBQAAAAAAADIFAAAAAAAACAAAACAgICAgICAgMgUAAAAAAAA+BQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxBQAAAAAAADEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					31,
+					1,
+					"cut",
+					null,
+					"AQAAAD4FAAAAAAAAPgUAAAAAAADHAAAAWwogICAgICAgICAgICAidCIsCiAgICAgICAgICAgIHRpbWUubW9ub3RvbmljKCksCiAgICAgICAgICAgICd6enonLAogICAgICAgICAgICBtYWNyb3BhZC5zbGVlcGluZywKICAgICAgICAgICAgJ3p0JywKICAgICAgICAgICAgbWFjcm9wYWQuaWRsZURlbHRhKCksCiAgICAgICAgICAgICdkJywKICAgICAgICAgICAgbGEuZGVsdGEsCiAgICAgICAgXQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+BQAAAAAAAAUGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAADIFAAAAAAAAMgUAAAAAAAAMAAAAICAgICAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+BQAAAAAAAD4FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					33,
+					1,
+					"left_delete",
+					null,
+					"AQAAADEFAAAAAAAAMQUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAyBQAAAAAAADIFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAADEFAAAAAAAAMwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxBQAAAAAAADEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					39,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAADEFAAAAAAAAMQUAAAAAAAABAAAAWzEFAAAAAAAAMQUAAAAAAAABAAAAXQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAyBQAAAAAAADIFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					1,
+					"paste",
+					null,
+					"AQAAADEFAAAAAAAA+AUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxBQAAAAAAADEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPgFAAAAAAAA+QUAAAAAAAAAAAAA+QUAAAAAAAABBgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD4BQAAAAAAAPgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					62,
+					1,
+					"cut",
+					null,
+					"AQAAAFAFAAAAAAAAUAUAAAAAAAAQAAAAdGltZS5tb25vdG9uaWMoKQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABQBQAAAAAAAGAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					65,
+					1,
+					"insert",
+					{
+						"characters": " {}"
+					},
+					"AwAAAEEFAAAAAAAAQgUAAAAAAAAAAAAAQgUAAAAAAABDBQAAAAAAAAAAAABDBQAAAAAAAEQFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBBQAAAAAAAEEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					67,
+					1,
+					"paste",
+					null,
+					"AQAAAEMFAAAAAAAAUwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDBQAAAAAAAEMFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					71,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAFcFAAAAAAAAVwUAAAAAAAANAAAAICAgICAgICAgICAgLA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkBQAAAAAAAGQFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFYFAAAAAAAAVgUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABXBQAAAAAAAFcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					79,
+					1,
+					"left_delete",
+					null,
+					"AQAAACcFAAAAAAAAJwUAAAAAAAALAAAAIlxuIi5qb2luKFs",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAnBQAAAAAAADIFAAAAAAAA////////738"
+				],
+				[
+					80,
+					1,
+					"insert_snippet",
+					{
+						"contents": "`$0`"
+					},
+					"AQAAACcFAAAAAAAAKQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAnBQAAAAAAACcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					81,
+					1,
+					"run_macro_file",
+					{
+						"file": "Packages/Default/Delete Left Right.sublime-macro"
+					},
+					"AgAAACcFAAAAAAAAJwUAAAAAAAABAAAAYCcFAAAAAAAAJwUAAAAAAAABAAAAYA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAoBQAAAAAAACgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					84,
+					1,
+					"left_delete",
+					null,
+					"AQAAADQFAAAAAAAANAUAAAAAAAABAAAAIg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA1BQAAAAAAADUFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					87,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFcFAAAAAAAAVwUAAAAAAAABAAAAJw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABYBQAAAAAAAFgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					89,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFsFAAAAAAAAWwUAAAAAAAABAAAALFoFAAAAAAAAWgUAAAAAAAABAAAAJw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABcBQAAAAAAAFwFAAAAAAAA////////738"
+				],
+				[
+					92,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGMFAAAAAAAAYwUAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABnBQAAAAAAAGcFAAAAAAAAAAAAAAAAW0A"
+				],
+				[
+					93,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAFsFAAAAAAAAWwUAAAAAAAAIAAAAICAgICAgICA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABjBQAAAAAAAGMFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					94,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoFAAAAAAAAWgUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbBQAAAAAAAFsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					95,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFoFAAAAAAAAWwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABaBQAAAAAAAFoFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					98,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{${0:$SELECTION}}"
+					},
+					"AgAAAFsFAAAAAAAAWwUAAAAAAAARAAAAbWFjcm9wYWQuc2xlZXBpbmdbBQAAAAAAAG4FAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbBQAAAAAAAGwFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					104,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEgFAAAAAAAASAUAAAAAAAACAAAAIiw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABIBQAAAAAAAEoFAAAAAAAA////////738"
+				],
+				[
+					107,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGwFAAAAAAAAbAUAAAAAAAABAAAALA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABtBQAAAAAAAG0FAAAAAAAA////////738"
+				],
+				[
+					109,
+					2,
+					"left_delete",
+					null,
+					"AgAAAH0FAAAAAAAAfQUAAAAAAAABAAAALHwFAAAAAAAAfAUAAAAAAAABAAAAJw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+BQAAAAAAAH4FAAAAAAAAAAAAAACwc0A"
+				],
+				[
+					112,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAH0FAAAAAAAAfQUAAAAAAAAMAAAAICAgICAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJBQAAAAAAAIkFAAAAAAAAAAAAAAAAW0A"
+				],
+				[
+					113,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHwFAAAAAAAAfAUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9BQAAAAAAAH0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					114,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAHwFAAAAAAAAfQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB8BQAAAAAAAHwFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					117,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{${0:$SELECTION}}"
+					},
+					"AgAAAH0FAAAAAAAAfQUAAAAAAAAUAAAAbWFjcm9wYWQuaWRsZURlbHRhKCl9BQAAAAAAAJMFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9BQAAAAAAAJEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					119,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJMFAAAAAAAAkwUAAAAAAAABAAAALA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACUBQAAAAAAAJQFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					122,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHkFAAAAAAAAeQUAAAAAAAABAAAAJw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB6BQAAAAAAAHoFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					125,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJ8FAAAAAAAAnwUAAAAAAAABAAAAJw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAKAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					130,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKAFAAAAAAAAoAUAAAAAAAAPAAAAJywKICAgICAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAK8FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					131,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKAFAAAAAAAAoQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAKAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					134,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{${0:$SELECTION}}"
+					},
+					"AgAAAKEFAAAAAAAAoQUAAAAAAAAIAAAAbGEuZGVsdGGhBQAAAAAAAKsFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChBQAAAAAAAKkFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					137,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKsFAAAAAAAAqwUAAAAAAAABAAAALA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACsBQAAAAAAAKwFAAAAAAAA////////738"
+				],
+				[
+					143,
+					3,
+					"insert_snippet",
+					{
+						"contents": "\"${0:$SELECTION}\""
+					},
+					"BgAAADQFAAAAAAAANAUAAAAAAAB3AAAAdCB7dGltZS5tb25vdG9uaWMoKX0KICAgICAgICAgICAgenp6IHttYWNyb3BhZC5zbGVlcGluZ30KICAgICAgICAgICAgenQge21hY3JvcGFkLmlkbGVEZWx0YSgpfQogICAgICAgICAgICBkIHtsYS5kZWx0YX00BQAAAAAAANEFAAAAAAAAAAAAADUFAAAAAAAANQUAAAAAAACbAAAAdCB7dGltZS5tb25vdG9uaWMoKX0KICAgICAgICAgICAgICAgICAgICAgICAgenp6IHttYWNyb3BhZC5zbGVlcGluZ30KICAgICAgICAgICAgICAgICAgICAgICAgenQge21hY3JvcGFkLmlkbGVEZWx0YSgpfQogICAgICAgICAgICAgICAgICAgICAgICBkIHtsYS5kZWx0YX01BQAAAAAAAPYFAAAAAAAAAAAAADYFAAAAAAAANgUAAAAAAAC/AAAAdCB7dGltZS5tb25vdG9uaWMoKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgenp6IHttYWNyb3BhZC5zbGVlcGluZ30KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgenQge21hY3JvcGFkLmlkbGVEZWx0YSgpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkIHtsYS5kZWx0YX02BQAAAAAAABsGAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA0BQAAAAAAAKsFAAAAAAAA////////738"
+				],
+				[
+					147,
+					9,
+					"unindent",
+					null,
+					"FgAAAEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIJAFAAAAAAAAkAUAAAAAAAAEAAAAICAgINYFAAAAAAAA1gUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIIwFAAAAAAAAjAUAAAAAAAAEAAAAICAgIM4FAAAAAAAAzgUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIIgFAAAAAAAAiAUAAAAAAAAEAAAAICAgIMYFAAAAAAAAxgUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIIQFAAAAAAAAhAUAAAAAAAAEAAAAICAgIL4FAAAAAAAAvgUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIIAFAAAAAAAAgAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIHwFAAAAAAAAfAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIHgFAAAAAAAAeAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIHQFAAAAAAAAdAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIHAFAAAAAAAAcAUAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbBQAAAAAAAO0FAAAAAAAAAAAAAADgYEA"
+				],
+				[
+					148,
+					3,
+					"unindent",
+					null,
+					"BgAAAEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIGwFAAAAAAAAbAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIGgFAAAAAAAAaAUAAAAAAAAEAAAAICAgIEwFAAAAAAAATAUAAAAAAAAEAAAAICAgIGQFAAAAAAAAZAUAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABMBQAAAAAAAJYFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					153,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAADcFAAAAAAAAOAUAAAAAAAAAAAAAOAUAAAAAAABEBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA3BQAAAAAAADcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					158,
+					3,
+					"unindent",
+					null,
+					"AwAAADgFAAAAAAAAOAUAAAAAAAAEAAAAICAgIDgFAAAAAAAAOAUAAAAAAAAEAAAAICAgIDgFAAAAAAAAOAUAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABEBQAAAAAAAEQFAAAAAAAAAAAAAAAAW0A"
+				],
+				[
+					162,
+					8,
+					"unindent",
+					null,
+					"CAAAAH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIH8FAAAAAAAAfwUAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACfBQAAAAAAAJ8FAAAAAAAAAAAAAAAAckA"
+				],
+				[
+					165,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIsFAAAAAAAAjAUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACLBQAAAAAAAIsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					169,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAACgFAAAAAAAAKAUAAAAAAAAMAAAAICAgICAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA0BQAAAAAAADQFAAAAAAAAAAAAAAAAW0A"
+				],
+				[
+					170,
+					1,
+					"left_delete",
+					null,
+					"AQAAACcFAAAAAAAAJwUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAoBQAAAAAAACgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					171,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAACcFAAAAAAAAKAUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAnBQAAAAAAACcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					183,
+					1,
+					"insert",
+					{
+						"characters": ":8."
+					},
+					"DAAAAH4FAAAAAAAAfwUAAAAAAAAAAAAAcQUAAAAAAAByBQAAAAAAAAAAAABXBQAAAAAAAFgFAAAAAAAAAAAAAD8FAAAAAAAAQAUAAAAAAAAAAAAAggUAAAAAAACDBQAAAAAAAAAAAAB0BQAAAAAAAHUFAAAAAAAAAAAAAFkFAAAAAAAAWgUAAAAAAAAAAAAAQAUAAAAAAABBBQAAAAAAAAAAAACGBQAAAAAAAIcFAAAAAAAAAAAAAHcFAAAAAAAAeAUAAAAAAAAAAAAAWwUAAAAAAABcBQAAAAAAAAAAAABBBQAAAAAAAEIFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAAA/BQAAAAAAAD8FAAAAAAAAAAAAAAAA8L9XBQAAAAAAAFcFAAAAAAAAAAAAAAAA8L9xBQAAAAAAAHEFAAAAAAAAAAAAAAAA8L9+BQAAAAAAAH4FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					184,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"BAAAAIoFAAAAAAAAiwUAAAAAAAAAAAAAegUAAAAAAAB7BQAAAAAAAAAAAABdBQAAAAAAAF4FAAAAAAAAAAAAAEIFAAAAAAAAQwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABCBQAAAAAAAEIFAAAAAAAAAAAAAAAA8L9dBQAAAAAAAF0FAAAAAAAAAAAAAAAA8L96BQAAAAAAAHoFAAAAAAAAAAAAAAAA8L+KBQAAAAAAAIoFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					187,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"BAAAAIsFAAAAAAAAjAUAAAAAAAAAAAAAegUAAAAAAAB7BQAAAAAAAAAAAABcBQAAAAAAAF0FAAAAAAAAAAAAAEAFAAAAAAAAQQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABABQAAAAAAAEAFAAAAAAAAAAAAAAAA8L9cBQAAAAAAAFwFAAAAAAAAAAAAAAAA8L96BQAAAAAAAHoFAAAAAAAAAAAAAAAA8L+LBQAAAAAAAIsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					191,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKAFAAAAAAAAoAUAAAAAAAABAAAAXQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChBQAAAAAAAKEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					192,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAJgFAAAAAAAAmAUAAAAAAAAIAAAAICAgICAgICA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAKAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					193,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJcFAAAAAAAAlwUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACYBQAAAAAAAJgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					198,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKAFAAAAAAAAoAUAAAAAAAABAAAAKQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChBQAAAAAAAKEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					199,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAJgFAAAAAAAAmAUAAAAAAAAIAAAAICAgICAgICA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAKAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					200,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJcFAAAAAAAAlwUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACYBQAAAAAAAJgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					202,
+					1,
+					"yapf_selection",
+					null,
+					"AQAAAAAAAAAAAAAA2QUAAAAAAADZBQAAaW1wb3J0IHRpbWUKZnJvbSBDb2xvcnMgaW1wb3J0IENvbG9ycywgY29sb3J3aGVlbCwgaGV4VmFsdWUKZnJvbSBUaXRsZWRHcmlkRGlzcGxheSBpbXBvcnQgVGl0bGVkR3JpZERpc3BsYXkKZnJvbSBkZWJ1Z0hlbHBlciBpbXBvcnQgdGhpc0RlYnVnUHJpbnRlcgpmcm9tIGRlYnVnSGVscGVyLkFuYWx5emVyIGltcG9ydCBMb29wQW5hbHl6ZXIsIG1lYW4KCnRoaXNEZWJ1Z1ByaW50ZXIuZW5hYmxlZCA9IFRydWUKCmZyb20gTWFjcm9QYWQgaW1wb3J0IE1hY3JvUGFkCgpmcm9tIGRlYnVnSGVscGVyIGltcG9ydCBkZWJ1Z0Fub3VuY2UKCgpjbGFzcyBBcHAoKToKCiAgICBkZWYgX19pbml0X18oc2VsZiwgbWFjcm9wYWQpOgogICAgICAgIHNlbGYubWFjcm9wYWQgPSBtYWNyb3BhZAogICAgICAgIHNlbGYuZ3JpZCA9IFRpdGxlZEdyaWREaXNwbGF5KHNlbGYubWFjcm9wYWQpCiAgICAgICAgcHJpbnQoZiJ7c2VsZn0gU3RhcnQiKQoKICAgIGRlZiB1cGRhdGUoc2VsZik6CiAgICAgICAgc2VsZi5ncmlkLnVwZGF0ZSgpCiAgICAgICAgc2VsZi5ncmlkLnNldFRpdGxlKCJUaW1lIEhlbGQiKQogICAgICAgIGZvciBrIGluIHNlbGYubWFjcm9wYWQua2V5c1ByZXNzZWQ6CiAgICAgICAgICAgIHBhc3MKICAgICAgICBmb3IgayBpbiByYW5nZSgxMik6CiAgICAgICAgICAgIGNvbG9yID0gY29sb3J3aGVlbCgKICAgICAgICAgICAgICAgIHNlbGYubWFjcm9wYWQua2V5SGVsZFRpbWUoaykgKiAzNiwKICAgICAgICAgICAgICAgIDEgLSBtaW4oMC45OSwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5tYWNyb3BhZC5rZXlIZWxkVGltZShrKSAvIDMwKSwKICAgICAgICAgICAgICAgIG1pbigxLAogICAgICAgICAgICAgICAgICAgIHNlbGYubWFjcm9wYWQua2V5SGVsZFRpbWUoaykgLyAxMCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgc2VsZi5tYWNyb3BhZC5waXhlbENvbG9yKGssIGNvbG9yKQogICAgICAgICAgICBzZWxmLmdyaWQuc2V0TGFiZWwoaywgZiJ7c2VsZi5tYWNyb3BhZC5rZXlIZWxkVGltZShrKTo1LjA0fSIpCgogICAgZGVmIF9fcmVwcl9fKHNlbGYpIC0+IHN0cjoKICAgICAgICByZXR1cm4gIjxBcHAoKT4iCgoKQGRlYnVnQW5vdW5jZQpkZWYgbWFpbigpOgogICAgbWFjcm9wYWQgPSBNYWNyb1BhZCgpCiAgICBhcHAgPSBBcHAobWFjcm9wYWQpCiAgICBsYSA9IExvb3BBbmFseXplcigpCiAgICB3aGlsZSBUcnVlOgogICAgICAgIHRpbWUuc2xlZXAoMC4wMDAxKQogICAgICAgIGxhLnVwZGF0ZSgpCiAgICAgICAgbWFjcm9wYWQudXBkYXRlKCkKICAgICAgICBhcHAudXBkYXRlKCkKICAgICAgICBwcmludChmIiIiCnQge3RpbWUubW9ub3RvbmljKCk6PjguMn0Kenp6IHttYWNyb3BhZC5zbGVlcGluZzo+OC4yfQp6dCB7bWFjcm9wYWQuaWRsZURlbHRhKCk6PjguMn0KZCB7bGEuZGVsdGE6PjguMn0KIiIiKQogICAgICAgIHByaW50KCJcblxuXG4iKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCkK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACXBQAAAAAAAJcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					208,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAAJkFAAAAAAAAmQUAAAAAAAAXAAAAICAgICAgICBwcmludCgiXG5cblxuIik",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACwBQAAAAAAALAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					209,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJgFAAAAAAAAmAUAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZBQAAAAAAAJkFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					213,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAACsFAAAAAAAALAUAAAAAAAAAAAAALAUAAAAAAAA0BQAAAAAAAAAAAAAsBQAAAAAAACwFAAAAAAAACAAAACAgICAgICAgLAUAAAAAAAA4BQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAArBQAAAAAAACsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					214,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAACwFAAAAAAAALAUAAAAAAAAMAAAAICAgICAgICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA4BQAAAAAAADgFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					215,
+					1,
+					"insert",
+					{
+						"characters": "---------------"
+					},
+					"DwAAACwFAAAAAAAALQUAAAAAAAAAAAAALQUAAAAAAAAuBQAAAAAAAAAAAAAuBQAAAAAAAC8FAAAAAAAAAAAAAC8FAAAAAAAAMAUAAAAAAAAAAAAAMAUAAAAAAAAxBQAAAAAAAAAAAAAxBQAAAAAAADIFAAAAAAAAAAAAADIFAAAAAAAAMwUAAAAAAAAAAAAAMwUAAAAAAAA0BQAAAAAAAAAAAAA0BQAAAAAAADUFAAAAAAAAAAAAADUFAAAAAAAANgUAAAAAAAAAAAAANgUAAAAAAAA3BQAAAAAAAAAAAAA3BQAAAAAAADgFAAAAAAAAAAAAADgFAAAAAAAAOQUAAAAAAAAAAAAAOQUAAAAAAAA6BQAAAAAAAAAAAAA6BQAAAAAAADsFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAsBQAAAAAAACwFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					216,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
+					},
+					"AQAAACwFAAAAAAAALAUAAAAAAAAPAAAALS0tLS0tLS0tLS0tLS0t",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7BQAAAAAAADsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					217,
+					1,
+					"insert",
+					{
+						"characters": "========"
+					},
+					"CAAAACwFAAAAAAAALQUAAAAAAAAAAAAALQUAAAAAAAAuBQAAAAAAAAAAAAAuBQAAAAAAAC8FAAAAAAAAAAAAAC8FAAAAAAAAMAUAAAAAAAAAAAAAMAUAAAAAAAAxBQAAAAAAAAAAAAAxBQAAAAAAADIFAAAAAAAAAAAAADIFAAAAAAAAMwUAAAAAAAAAAAAAMwUAAAAAAAA0BQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAsBQAAAAAAACwFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					219,
+					3,
+					"duplicate_line",
+					null,
+					"AwAAADQFAAAAAAAAPAUAAAAAAAAAAAAAPAUAAAAAAABEBQAAAAAAAAAAAABEBQAAAAAAAEwFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA0BQAAAAAAACwFAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					227,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAALQFAAAAAAAAtQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0BQAAAAAAALQFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					237,
+					1,
+					"left_delete",
+					null,
+					"BAAAALAFAAAAAAAAsAUAAAAAAAABAAAAOJ4FAAAAAAAAngUAAAAAAAABAAAAOH8FAAAAAAAAfwUAAAAAAAABAAAAOGIFAAAAAAAAYgUAAAAAAAABAAAAOA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABjBQAAAAAAAGMFAAAAAAAAAAAAAAAA8L+ABQAAAAAAAIAFAAAAAAAAAAAAAAAA8L+fBQAAAAAAAJ8FAAAAAAAAAAAAAAAA8L+xBQAAAAAAALEFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					238,
+					1,
+					"insert",
+					{
+						"characters": "12"
+					},
+					"CAAAAK0FAAAAAAAArgUAAAAAAAAAAAAAnAUAAAAAAACdBQAAAAAAAAAAAAB+BQAAAAAAAH8FAAAAAAAAAAAAAGIFAAAAAAAAYwUAAAAAAAAAAAAAsQUAAAAAAACyBQAAAAAAAAAAAACfBQAAAAAAAKAFAAAAAAAAAAAAAIAFAAAAAAAAgQUAAAAAAAAAAAAAYwUAAAAAAABkBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABiBQAAAAAAAGIFAAAAAAAAAAAAAAAA8L9+BQAAAAAAAH4FAAAAAAAAAAAAAAAA8L+cBQAAAAAAAJwFAAAAAAAAAAAAAAAA8L+tBQAAAAAAAK0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					242,
+					2,
+					"left_delete",
+					null,
+					"CAAAALQFAAAAAAAAtAUAAAAAAAABAAAAMqEFAAAAAAAAoQUAAAAAAAABAAAAMoEFAAAAAAAAgQUAAAAAAAABAAAAMmMFAAAAAAAAYwUAAAAAAAABAAAAMrAFAAAAAAAAsAUAAAAAAAABAAAAMZ4FAAAAAAAAngUAAAAAAAABAAAAMX8FAAAAAAAAfwUAAAAAAAABAAAAMWIFAAAAAAAAYgUAAAAAAAABAAAAMQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABkBQAAAAAAAGQFAAAAAAAAAAAAAAAA8L+CBQAAAAAAAIIFAAAAAAAAAAAAAAAA8L+iBQAAAAAAAKIFAAAAAAAAAAAAAAAA8L+1BQAAAAAAALUFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					243,
+					1,
+					"insert",
+					{
+						"characters": "20"
+					},
+					"CAAAAK0FAAAAAAAArgUAAAAAAAAAAAAAnAUAAAAAAACdBQAAAAAAAAAAAAB+BQAAAAAAAH8FAAAAAAAAAAAAAGIFAAAAAAAAYwUAAAAAAAAAAAAAsQUAAAAAAACyBQAAAAAAAAAAAACfBQAAAAAAAKAFAAAAAAAAAAAAAIAFAAAAAAAAgQUAAAAAAAAAAAAAYwUAAAAAAABkBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABiBQAAAAAAAGIFAAAAAAAAAAAAAAAA8L9+BQAAAAAAAH4FAAAAAAAAAAAAAAAA8L+cBQAAAAAAAJwFAAAAAAAAAAAAAAAA8L+tBQAAAAAAAK0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					253,
+					1,
+					"left_delete",
+					null,
+					"AQAAAH4FAAAAAAAAfgUAAAAAAAAGAAAAOj4yMC4y",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+BQAAAAAAAIQFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					269,
+					1,
+					"alignment",
+					null,
+					"BAAAAE8FAAAAAAAAUQUAAAAAAAAAAAAAbgUAAAAAAABuBQAAAAAAAAAAAACFBQAAAAAAAIYFAAAAAAAAAAAAAKUFAAAAAAAApwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABPBQAAAAAAAE8FAAAAAAAAAAAAAAAA8L9sBQAAAAAAAGwFAAAAAAAAAAAAAAAA8L+DBQAAAAAAAIMFAAAAAAAAAAAAAAAA8L+iBQAAAAAAAKIFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					270,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"BAAAAKcFAAAAAAAAqAUAAAAAAAAAAAAAhgUAAAAAAACHBQAAAAAAAAAAAABuBQAAAAAAAG8FAAAAAAAAAAAAAFEFAAAAAAAAUgUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABRBQAAAAAAAFEFAAAAAAAAAAAAAAAA8L9uBQAAAAAAAG4FAAAAAAAAAAAAAAAA8L+GBQAAAAAAAIYFAAAAAAAAAAAAAAAA8L+nBQAAAAAAAKcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					271,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"BAAAAKsFAAAAAAAArAUAAAAAAAAAAAAAiQUAAAAAAACKBQAAAAAAAAAAAABwBQAAAAAAAHEFAAAAAAAAAAAAAFIFAAAAAAAAUwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABSBQAAAAAAAFIFAAAAAAAAAAAAAAAA8L9wBQAAAAAAAHAFAAAAAAAAAAAAAAAA8L+JBQAAAAAAAIkFAAAAAAAAAAAAAAAA8L+rBQAAAAAAAKsFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					288,
+					1,
+					"left_delete",
+					null,
+					"AwAAALgFAAAAAAAAuAUAAAAAAAAGAAAAOj4yMC4yoQUAAAAAAAChBQAAAAAAAAYAAAA6PjIwLjJkBQAAAAAAAGQFAAAAAAAABgAAADo+MjAuMg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAMAAABkBQAAAAAAAGoFAAAAAAAAAAAAAAAA8L+hBQAAAAAAAKcFAAAAAAAAAAAAAAAA8L+4BQAAAAAAAL4FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					299,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJ8FAAAAAAAAnwUAAAAAAAABAAAAIJ4FAAAAAAAAngUAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgBQAAAAAAAKAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					301,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAJ0FAAAAAAAAngUAAAAAAAAAAAAAngUAAAAAAACfBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACdBQAAAAAAAJ0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					305,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIIFAAAAAAAAggUAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACDBQAAAAAAAIMFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					307,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIAFAAAAAAAAgQUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACABQAAAAAAAIAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					310,
+					2,
+					"left_delete",
+					null,
+					"AgAAAE8FAAAAAAAATwUAAAAAAAABAAAAIE4FAAAAAAAATgUAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABQBQAAAAAAAFAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					312,
+					1,
+					"insert",
+					{
+						"characters": "   "
+					},
+					"AwAAAE0FAAAAAAAATgUAAAAAAAAAAAAATgUAAAAAAABPBQAAAAAAAAAAAABPBQAAAAAAAFAFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABNBQAAAAAAAE0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					313,
+					1,
+					"left_delete",
+					null,
+					"AQAAAE0FAAAAAAAATQUAAAAAAAADAAAAICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABQBQAAAAAAAFAFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					314,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAE0FAAAAAAAATgUAAAAAAAAAAAAATgUAAAAAAABPBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABNBQAAAAAAAE0FAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					319,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"CAAAAJ0FAAAAAAAAngUAAAAAAAAAAAAAgAUAAAAAAACBBQAAAAAAAAAAAABmBQAAAAAAAGcFAAAAAAAAAAAAAE0FAAAAAAAATgUAAAAAAAAAAAAAoQUAAAAAAACiBQAAAAAAAAAAAACDBQAAAAAAAIQFAAAAAAAAAAAAAGgFAAAAAAAAaQUAAAAAAAAAAAAATgUAAAAAAABPBQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABNBQAAAAAAAE0FAAAAAAAAAAAAAAAA8L9mBQAAAAAAAGYFAAAAAAAAAAAAAAAA8L+ABQAAAAAAAIAFAAAAAAAAAAAAAAAA8L+dBQAAAAAAAJ0FAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					336,
+					1,
+					"insert",
+					{
+						"characters": "_ns"
+					},
+					"AwAAAGQFAAAAAAAAZQUAAAAAAAAAAAAAZQUAAAAAAABmBQAAAAAAAAAAAABmBQAAAAAAAGcFAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkBQAAAAAAAGQFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					338,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGYFAAAAAAAAZgUAAAAAAAABAAAAc2UFAAAAAAAAZQUAAAAAAAABAAAAbg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABnBQAAAAAAAGcFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					340,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGQFAAAAAAAAZAUAAAAAAAABAAAAXw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABlBQAAAAAAAGUFAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"contents": "CRANE\nKILTS\nDUMPY\nBOUGH\nDOLES\nDOVES\nDOZES\nDOSES",
+			"settings":
+			{
+				"buffer_size": 47,
+				"line_ending": "Unix",
+				"name": "CRANE"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAALwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "rsync to device",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Get Libs",
+					""
+				],
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Get Libs",
+					""
+				],
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Get Libs",
+					""
+				],
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"build venv",
+					""
+				],
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"python venv",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Perl/Perl.sublime-build",
+					""
+				],
+				[
+					"Packages/Perl/Perl.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/Perl Run.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/Perl Run.sublime-build",
+					"🔍 Check Syntax"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/Perl Run.sublime-build",
+					"🚰 pipe to file"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/Perl Run.sublime-build",
+					"📄 CGI to file"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/Perl Run.sublime-build",
+					"🕸 CGI to file, open in Safari"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/perltidy.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/⁉️ perlcritic.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/⁉️ perlcritic.sublime-build",
+					"level four"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/⁉️ perlcritic.sublime-build",
+					"level three"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/⁉️ perlcritic.sublime-build",
+					"level two"
+				],
+				[
+					"Packages/User/additions_mlc/languages/perl/build/⁉️ perlcritic.sublime-build",
+					"level one"
+				],
+				[
+					"Packages/User/additions_mlc/languages/python/env-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Perl/Perl.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"build venv",
+					""
+				],
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"python venv",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/python/env-python.sublime-build",
+					""
+				]
+			],
+			[
+				"python venv",
+				""
+			]
+		],
+		[
+			[
+				[
+					"build venv",
+					""
+				],
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"python venv",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/ShellScript/ShellScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					"/bin/bash, probably v3"
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					"/usr/local/bin/bash, probably v4"
+				],
+				[
+					"Packages/User/additions_mlc/languages/python/env-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"build venv",
+					""
+				],
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"python venv",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/python/env-python.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/web/Open in Safari .sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/web/Open in Safari .sublime-build",
+					"Technology Preview"
+				],
+				[
+					"Packages/User/additions_mlc/languages/web/Open in Safari .sublime-build",
+					"WebKit"
+				],
+				[
+					"Packages/User/additions_mlc/languages/web/Open in Safari .sublime-build",
+					"Marked App"
+				]
+			],
+			[
+				"Packages/User/additions_mlc/languages/web/Open in Safari .sublime-build",
+				"Marked App"
+			]
+		],
+		[
+			[
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				]
+			],
+			[
+				"Packages/Python 3/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"echo container file path",
+					""
+				],
+				[
+					"run executable in container",
+					""
+				],
+				[
+					"run executable in container, results to disk",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/python/env-python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/js/jsPretty.sublime-build",
+					""
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/ShellScript/ShellScript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					"/bin/bash, probably v3"
+				],
+				[
+					"Packages/User/additions_mlc/languages/bash/bash.sublime-build",
+					"/usr/local/bin/bash, probably v4"
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		],
+		[
+			[
+				[
+					"rsync to device",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🌦 Get Environment.sublime-build",
+					"shell"
+				],
+				[
+					"Packages/User/additions_mlc/🔱 Open in SMerge.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/additions_mlc/🧾 hash.sublime-build",
+					"SHA"
+				],
+				[
+					"Packages/User/additions_mlc/languages/js/jsPretty.sublime-build",
+					""
+				]
+			],
+			[
+				"rsync to device",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"resat",
+				"LSP: Restart Server"
+			],
+			[
+				"restart",
+				"LSP: Restart Server"
+			],
+			[
+				"py",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"qmk",
+				"Set Syntax: Liquid Markdown"
+			],
+			[
+				"fig",
+				"Figlet: Add Text"
+			],
+			[
+				"side",
+				"File: Reveal in Sidebar"
+			],
+			[
+				"figle",
+				"Figlet: Add Text"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"restar",
+				"LSP: Restart Server"
+			],
+			[
+				"num",
+				"Insert Nums"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"inser",
+				"Insert Nums"
+			],
+			[
+				"trim",
+				"Trim Trailing White Space"
+			],
+			[
+				"in",
+				"Insert Nums"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"un",
+				"Permute Lines: Unique"
+			],
+			[
+				"nums",
+				"Insert Nums"
+			],
+			[
+				"numbs",
+				"Snippet: Sublime Text Snippet"
+			],
+			[
+				"insnu",
+				"Insert Nums"
+			],
+			[
+				"convertab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ax",
+				"Chmod a+x"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termin",
+				"Terminal: Open"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"caml",
+				"Convert Case: camelCase"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"cam",
+				"Convert Case: camelCase"
+			],
+			[
+				"ranin",
+				"Random:Int"
+			],
+			[
+				"sspytho",
+				"Set Syntax: Python3"
+			],
+			[
+				"randomin",
+				"Random:Int"
+			],
+			[
+				"randomnam",
+				"Random:Full Name"
+			],
+			[
+				"reveea",
+				"File: Reveal in Sidebar"
+			],
+			[
+				"innum",
+				"Insert Nums"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"server",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"camle",
+				"Convert Case: camelCase"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"case",
+				"Convert Case: dot.case"
+			],
+			[
+				"enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"copy",
+				"File: Copy Filename"
+			],
+			[
+				"reanm",
+				"Rename File"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"randomnumbers",
+				"Random:Letters and numbers"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python3"
+			],
+			[
+				"sspyh",
+				"Set Syntax: Python3"
+			],
+			[
+				"campl",
+				"Set Syntax: camlp4"
+			],
+			[
+				"sspython",
+				"Set Syntax: Python3"
+			],
+			[
+				"json",
+				"json2xml"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"randomwo",
+				"Random:Word"
+			],
+			[
+				"shuf",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"sq",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"python",
+				"Set Syntax: Python3"
+			],
+			[
+				"ssmad",
+				"Set Syntax: Markdown"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"ti",
+				"Convert Case: Title Case"
+			],
+			[
+				"blame",
+				"Sublime Merge: Blame File"
+			],
+			[
+				"evalu",
+				"Evaluate: Evaluate Selections"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"res",
+				"LSP: Restart Server"
+			],
+			[
+				"lspre",
+				"LSP: Restart Server"
+			],
+			[
+				"pyright",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"ena",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"pyrigh",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"ssmake",
+				"Set Syntax: Makefile"
+			],
+			[
+				"cacml",
+				"Convert Case: camelCase"
+			],
+			[
+				"caseca",
+				"Convert Case: camelCase"
+			],
+			[
+				"pyr",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"lspjson",
+				"Preferences: LSP-json Settings"
+			],
+			[
+				"right",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"enablelan",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lspena",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"reverse",
+				"Permute Lines: Reverse"
+			],
+			[
+				"lspdocker",
+				"Preferences: LSP-dockerfile Settings"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"lspen",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"ssdocker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"date",
+				"InsertDate: Show Panel"
+			],
+			[
+				"m",
+				"File: Move"
+			],
+			[
+				"sr:",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"uicolo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"stat",
+				"Snippet: Status Report"
+			],
+			[
+				"scope",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"DATE",
+				"InsertDate: Show Panel"
+			],
+			[
+				"packup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"copypath",
+				"File: Copy Absolute Path"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"perm",
+				"Permute Lines: Unique"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 745.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dothtm/Developer/circuit-py/app"
+	],
+	"file_history":
+	[
+		"/Users/dothtm/Developer/circuit-py/app/pyrightconfig.json",
+		"/Users/dothtm/Developer/circuit-py/app/TitledGridDisplay.py",
+		"/Users/dothtm/Developer/circuit-py/app/Application.py",
+		"/Users/dothtm/Developer/circuit-py/app/MacroPad.py",
+		"/Users/dothtm/Developer/circuit-py/macropad.sublime-project",
+		"/Users/dothtm/Developer/circuit-py/app/code.py",
+		"/Users/dothtm/Developer/circuit-py/app/debugHelper/Analyzer.py",
+		"/Users/dothtm/Library/Application Support/Sublime Text/Packages/Default/Preferences.sublime-settings",
+		"/Users/dothtm/Library/Application Support/Sublime Text/Packages/User/Preferences.sublime-settings",
+		"/Users/dothtm/Developer/circuit-py/app/Colors/__init__.py",
+		"/Users/dothtm/Downloads/meta_mike-18.json",
+		"/Users/dothtm/Developer/circuit-py/app/debugHelper/__init__.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/colorsys.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/neopixel.py",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_grid_layout.py",
+		"/Users/dothtm/Developer/circuit-py/app/test.py",
+		"/Users/dothtm/Developer/circuit-py/app/UpdateableThing.py",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_tone_keypad_extended.py",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_simpletest_display.py",
+		"/Users/dothtm/Developer/circuit-py/app/Keys.py",
+		"/Users/dothtm/Developer/circuit-py/app/Pages.py",
+		"/Users/dothtm/Developer/circuit-py/app/UpdateableAttribute.py",
+		"/Users/dothtm/Developer/circuit-py/app/KeycodeMap.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/adafruit_macropad.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/adafruit_hid/keyboard.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/adafruit_hid/keycode.py",
+		"/Users/dothtm/Developer/circuit-py/app/MenuPages.py",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/lib/adafruit_hid/keycode.py",
+		"/Users/dothtm/Developer/circuit-py/app/Keycode.py",
+		"/Users/dothtm/Developer/circuit-py/app/Notes.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings/Settings.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings/__init__.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings/helpers.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings/Pages.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings/keymap.py",
+		"/Users/dothtm/Developer/circuit-py/app/boot.py",
+		"/Users/dothtm/Developer/circuit-py/app/settings.json",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_simpletest.py",
+		"/Users/dothtm/Developer/circuit-py/app/requirements.txt",
+		"/Users/dothtm/Developer/circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/lib/adafruit_macropad.py",
+		"/Volumes/CIRCUITPY/code.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/adafruit_hid/mouse.py",
+		"/Users/dothtm/Developer/circuit-py/Makefile",
+		"/Users/dothtm/Developer/circuit-py/app/settings/Colors.py",
+		"/Users/dothtm/Developer/circuit-py/app/keymap.py",
+		"/Users/dothtm/Developer/circuit-py/cpy-lib/adafruit_bluefruit_connect/button_packet.py",
+		"/Users/dothtm/Developer/circuit-py/app/RangedInt.py",
+		"/Users/dothtm/Developer/circuit-py/transfer.sh",
+		"/Users/dothtm/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/dothtm/Developer/circuit-py/pyrightconfig.json",
+		"/Users/dothtm/Developer/circuit-py/code.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/.gitignore",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/requirements.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/requirements.in",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/proxy.sh",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/monitor/tableMonitor.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/Makefile",
+		"/Users/cramerm/Developer/utnetdb_csu/*.*-project",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/setup.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/databases/sqlACore.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/test.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/monitor/basDataRefresh.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/isoraUpdate.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/isoraUpdateT2.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/scripts_in_a_container.sublime-project",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/isoraStatements.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/restAPIs/isora.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/test5.py",
+		"/Users/cramerm/Desktop/note2",
+		"/Users/cramerm/Desktop/notes",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/misc/lol.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/misc/utils.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/log/changes.log",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/test5.py",
+		"/Users/cramerm/Desktop/inventory/business_logic/statements.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/restAPIs/api.py",
+		"/Users/cramerm/Desktop/inventory/isora/api.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/log/lookups",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/test3.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/test2.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/api-snapshot/sheets.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/api-snapshot/isora2021_netw_voip.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/debuggingTools/debugAnnounce.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/cachier/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/api-snapshot/cache.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/api-snapshot/isora2021_netw_other.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/test4.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/misc/files.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/api-snapshot/Voice.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/debuggingTools/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/shared_data/facilites/archive_mover.pl",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/tmp/sample.json",
+		"/Users/cramerm/Desktop/pseudo.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/building_grades/inventory/export/2022-01-03_2.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/building_grades/inventory/export/2022-01-03_1.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/update.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/data/add.txt",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/api-perm-test.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/isora_clobber.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/misc/isora_cache_statements.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/misc/isora_cache_clobber.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/databases/xmp_isora_cache.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/report_processing/client_address_current_checker.pl",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/README.md",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/.gitignore",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/fedora_installations.sh",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/report/iotEmails.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/debugingTools/debugAnnounce.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/databases/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/databases/utils.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/building_grades/wireless_incidents_collection.pl",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/general_network/generate_dhcp_config.pl",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/databases/UtnetDatabases.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/monitor/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/debug/debugAnnounce.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/debug/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/python/iot/emailReport.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/databases/UtnetDatabases.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/databases/sqlACore.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/data.csv",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/data.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/databases/__init__.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/Makefile",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/databases/credentials_sample.json",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/databases/credentials.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/setup.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/iot/emailReport.py",
+		"/Users/cramerm/Developer/scripts_in_a_container/app/iot/README.md"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":>",
+			"{",
+			"8.2",
+			"}",
+			"self",
+			"print",
+			"sleepTalking: False",
+			"newValue):",
+			"if not self._macropad.sleeping",
+			"asd",
+			", override = False",
+			"monotonic",
+			"monotonic()",
+			"LoopAnalyzer.",
+			"timeFn",
+			"gettime",
+			"macropad",
+			":^",
+			"time.monotonic()",
+			"'",
+			"lastTime",
+			"time_held",
+			"_rawTitleText",
+			"self._formatter",
+			"0",
+			"hello",
+			"labelText",
+			"color",
+			"background_color",
+			"title",
+			"()",
+			"titleWidth",
+			"macropad.pixels[k]",
+			"macropad",
+			"self.layout",
+			"self.title",
+			"self.main_group",
+			"self.display",
+			"self.labels",
+			"bob",
+			"Label",
+			"label",
+			"bitmap_label",
+			"Label",
+			"display",
+			"grid",
+			"setLEDBrightness",
+			"time",
+			"toneUpdate",
+			"keyDown",
+			"evalKeyDown",
+			"toneUpdate",
+			"ToneKey",
+			"titleObj",
+			"labelObjs",
+			"self.pixels",
+			"pixels",
+			"pastPage",
+			"onChange",
+			"UpdateableAttribute",
+			"self.labels",
+			"self.title",
+			"brightness",
+			"setupGridDisplay",
+			"title",
+			"settingsPage",
+			"currentPage",
+			"refreshSleep",
+			"settings",
+			"refreshSleep",
+			"self.wakeLEDBrightness",
+			"settings['sleepLEDBrightness",
+			"settings",
+			"self.sleepLEDBrightness",
+			"title",
+			"7",
+			" ",
+			"pageStack",
+			"page",
+			"baseColor",
+			"update",
+			"raw_value",
+			"formatted_value",
+			"attributeUpdate",
+			"arg",
+			"raw_store",
+			"self.title",
+			"currentPage",
+			"pageStack",
+			"defaultUp",
+			"keyDown",
+			"onKeyDown",
+			"colorFn",
+			",",
+			"color",
+			"attribute",
+			"value",
+			"tmp",
+			"self._color",
+			"self.desc",
+			"desc",
+			"FunctionalKey",
+			"toggleSetting",
+			"value",
+			"disk",
+			"Boot",
+			"boot",
+			"settingsPage",
+			"blankPage",
+			"mycolor",
+			"': ",
+			"None",
+			"mixColors",
+			"themeGroups",
+			"charvalues",
+			"    '",
+			",(?=\\s*[]})])",
+			",\\s*[]})]",
+			",\n    ]",
+			"\"[^\"]+\": (?=kc\\.)",
+			"\"HOME\": ",
+			"\"[^\"]+\": (?=kc\\.)",
+			"\"[^\"+]\": (?=kc\\.)",
+			"\"HOME\": kc.",
+			"\": kc.",
+			"kc.",
+			"kc",
+			"\": "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"keyPress(\\1)",
+			"keyPress($1)",
+			"keyPress(\\1)"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/code.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1380,
+								1380
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".[",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-pyright"
+								}
+							],
+							"color_helper.refresh": true,
+							"lsp_active": true,
+							"lsp_hover_provider_count": 1,
+							"lsp_uri": "file:///Users/dothtm/Developer/circuit-py/app/code.py",
+							"origPos":
+							[
+								0.0,
+								913.0
+							],
+							"show_definitions": false,
+							"syncScroll": false,
+							"syntax": "Packages/Python 3/Python3.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 913.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"auto_name": "CRANE",
+							"color_helper.refresh": true,
+							"color_helper.scan":
+							{
+								"allow_scanning": false,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color\\((?!\\s*-)|(?:hsla?|lch|lab|hwb|rgba?)\\()|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])#)",
+								"current_ext": null,
+								"current_syntax": "Text/Plain text",
+								"enabled": true,
+								"last_updated": 1644722228.81,
+								"scanning": "-comment"
+							},
+							"lsp_uri": "buffer://sublime/26",
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 156.0
+	},
+	"output.Protocol":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4343571552)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4357102560)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4367717472)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4376694896)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4395816032)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4403418208)":
+	{
+		"height": 0.0
+	},
+	"output.Protocol(4411039168)":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 168.0
+	},
+	"output.diagnostics":
+	{
+		"height": 168.0
+	},
+	"output.exec":
+	{
+		"height": 235.0
+	},
+	"output.find_results":
+	{
+		"height": 186.0
+	},
+	"output.language servers":
+	{
+		"height": 780.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 449.0
+	},
+	"pinned_build_system": "",
+	"project": "macropad.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ana",
+				"app/debugHelper/Analyzer.py"
+			],
+			[
+				"code",
+				"app/code.py"
+			],
+			[
+				"appgrid",
+				"app/TitledGridDisplay.py"
+			],
+			[
+				"macrpy",
+				"app/MacroPad.py"
+			],
+			[
+				"macropad.",
+				"app/MacroPad.py"
+			],
+			[
+				"neopixe",
+				"circuit-py/cpy-lib/neopixel.py"
+			],
+			[
+				"exammacro",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_grid_layout.py"
+			],
+			[
+				"examplemacropad",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_simpletest_display.py"
+			],
+			[
+				"examplemacrpadexte",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_tone_keypad_extended.py"
+			],
+			[
+				"keycode",
+				"circuit-py/app/Keycode.py"
+			],
+			[
+				"m",
+				"circuit-py/app/MacroPad.py"
+			],
+			[
+				"settings.json",
+				"circuit-py/app/settings.json"
+			],
+			[
+				"examplemacropadpy",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_tone_keypad_extended.py"
+			],
+			[
+				"examplemacropad.py",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_simpletest.py"
+			],
+			[
+				"mouse",
+				"circuit-py/cpy-lib/adafruit_hid/mouse.py"
+			],
+			[
+				"adamacropapy",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/lib/adafruit_macropad.py"
+			],
+			[
+				"macropad",
+				"circuit-py/downloads/adafruit-circuitpython-bundle-py-20220127/examples/macropad_tone_keypad_extended.py"
+			],
+			[
+				"test5",
+				"python/test5.py"
+			],
+			[
+				"statements",
+				"python/report/isoraStatements.py"
+			],
+			[
+				"isorapy",
+				"python/restAPIs/isora.py"
+			],
+			[
+				"isora",
+				"scripts_in_a_container/app/python/report/isoraUpdate.py"
+			],
+			[
+				"state",
+				"inventory/business_logic/statements.py"
+			],
+			[
+				"api",
+				"python/restAPIs/api.py"
+			],
+			[
+				"test",
+				"python/test.py"
+			],
+			[
+				"move",
+				"scripts_in_a_container/app/shared_data/facilites/archive_mover.pl"
+			],
+			[
+				"client",
+				"app/report_processing/client_address_current_checker.pl"
+			],
+			[
+				"creden",
+				"app/credentials.json"
+			],
+			[
+				"cred",
+				"app/credentials.json"
+			],
+			[
+				"limi",
+				"app/pna_tools/bw_limiter.pl"
+			],
+			[
+				"main.py",
+				"app/isora/inventory/main.py"
+			],
+			[
+				"requi",
+				"app/isora/inventory/requirements.txt"
+			],
+			[
+				"__in",
+				"app/isora/inventory/isora/__init__.py"
+			],
+			[
+				"ini",
+				"app/isora/inventory/env/lib/python3.9/site-packages/setuptools/command/install_egg_info.py"
+			],
+			[
+				"data",
+				"app/isora/inventory/data.json"
+			],
+			[
+				"data.",
+				"app/isora/inventory/data.json"
+			],
+			[
+				"history",
+				"app/wireless/scripts/historyWlcProbeUsers.pl"
+			],
+			[
+				"table",
+				"app/UTNET/Object/Database/Table.pm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Developer/qmk_mlc/qmk_mlc.sublime-project"
+			],
+			[
+				"uttt",
+				"~/Developer/Docs/txt/UT txt.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
