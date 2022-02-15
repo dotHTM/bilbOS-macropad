@@ -6,7 +6,7 @@ source := https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/dow
 archive := adafruit-circuitpython-bundle-py-${currentCPRelease}.zip
 downloadDir := downloads
 downloadPath := ${downloadDir}/${archive}
-libDir := cpy-lib
+libDir := lib
 
 dotZip := .zip
 emptystr := 
@@ -35,13 +35,13 @@ install: ${downloadPath} requirements-dev.txt
 	@echo "Remember to add '${shell pwd}/lib' to PYTHONPATH "
 	@echo 
 
-xfer: install
+xfer:
 	find . -iname "._*" -delete
 	find . -iname ".DS" -delete
 	rsync -hav --delete app/ /Volumes/CIRCUITPY \
 		--exclude .Trashes \
 		--exclude .DS_Store \
-		--exclude .git \
+		--exclude .Spotlight-V100 \
 		--exclude boot_out.txt \
 		--exclude lib
 	circup install -r requirements.txt

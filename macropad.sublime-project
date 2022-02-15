@@ -12,12 +12,12 @@
     {
       "name": "Get Libs",
       "working_dir": "$project_path",
-      "shell_cmd": "make",
+      "shell_cmd": "make install",
     },
     {
       "name": "rsync to device",
       "working_dir": "$project_path",
-      "shell_cmd": "make xfer back-copy",
+      "shell_cmd": "make xfer",
     }
   ]
 }
