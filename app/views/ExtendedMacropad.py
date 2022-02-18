@@ -7,10 +7,17 @@ class ExtendedMacropad(adafruit_macropad.MacroPad):
     encoder_direction = 0
 
     _old_encoder = 0
-    
+
     pressedKeys = []
     newPressedKeys = []
     newReleasedKeys = []
+
+    def __init__(self, rotation=0, midi_in_channel=1, midi_out_channel=1):
+        super().__init__(rotation, midi_in_channel, midi_out_channel)
+
+    def pixelColor(self, index, newColor):
+        if 0 <= index and index < len(self.pixels):
+            self.pixels[index] = newColor
 
     def update(self):
         self.encoder_switch_debounced.update()
@@ -23,12 +30,10 @@ class ExtendedMacropad(adafruit_macropad.MacroPad):
         else:
             self.encoder_direction = 1 if 0 < self.encoder_delta else -1
         self._old_encoder = self.encoder
-        
-        
+
         newPressedKeys = []
         newReleasedKeys = []
-        
-        
+
         while self.keys.events:
             key_event = self.keys.events.get()
             if key_event.pressed:

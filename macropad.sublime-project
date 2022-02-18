@@ -2,10 +2,6 @@
   "folders": [
   {
     "path": ".",
-  },
-  {
-    "path": "/Volumes/CIRCUITPY",
-    "name": "device",
   },],
 
   "build_systems": [
@@ -19,5 +15,5 @@
       "working_dir": "$project_path",
       "shell_cmd": "make xfer",
     }
-  ]
+  ],
 }
