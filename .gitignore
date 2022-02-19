@@ -1,5 +1,5 @@
-
 .DS_store
+*.sublime-workspace
 
 app/lib
 cpy-lib

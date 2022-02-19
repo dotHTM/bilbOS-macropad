@@ -12,14 +12,20 @@ Games:
     - designed around the MVC paradigm
     - players can play, resign, agree to draw, stalemate, undo and redo (given that no play has overwritten the redo stack)
     - key layout:
-        
-        | screen: current player / state | click encoder: exit (not implemented) | encoder rotation: undo / redo |
-        |-|
-        | play | play | play |
-        | play | play | play |
-        | play | play | play |
-        | resign to X / red | agree to draw | resign to O / blue |
-
+        ```
+        +------------------------------------------------------+
+        | screen: current | click encoder:  | rotation:        |
+        |  player / state |     nothing yet |      undo / redo |
+        +------------------------------------------------------+
+        |       play      |       play      |       play       |
+        +------------------------------------------------------+
+        |       play      |       play      |       play       |
+        +------------------------------------------------------+
+        |       play      |       play      |       play       |
+        +------------------------------------------------------+
+        | resign to X/red |  agree to draw  | resign to O/blue |
+        +------------------------------------------------------+
+        ```
 To Do:
 
 - Menu system
@@ -34,3 +40,4 @@ To Do:
     - speaker can beep and buzz
     - recoder & playback
     - midi mode
+
