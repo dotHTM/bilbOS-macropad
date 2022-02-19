@@ -23,7 +23,7 @@ Games:
         +------------------------------------------------------+
         |       play      |       play      |       play       |
         +------------------------------------------------------+
-        | resign to X/red |  agree to draw  | resign to O/blue |
+        | resign to X/red | draw / new game | resign to O/blue |
         +------------------------------------------------------+
         ```
 To Do:
