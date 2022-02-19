@@ -5,6 +5,24 @@ from views.ExtendedMacropad import ExtendedMacropad
 myHardwareController = ExtendedMacropad()
 
 
+DEBUG = False
+
+
+def debugMessage(*args, **kwargs):
+    if DEBUG:
+        print(*args, **kwargs)
+
+
+def debugAnounce(fn):
+    def inner(*args, **kwargs):
+        debugMessage(f"{fn}({ *args, **kwargs})")
+        result = fn(*args, **kwargs)
+        debugMessage(f"## {fn}")
+        return result
+
+    return inner
+
+
 def transpose(lol: list[list[T]]) -> list[list[T]]:
     return [list(r) for r in zip(*lol)]
 
@@ -22,6 +40,7 @@ class BaseModel:
 
 class TTTBoard:
     history = []
+    future = []
 
     @property
     def lastPlay(self):
@@ -29,39 +48,54 @@ class TTTBoard:
             return self.history[-1]
         return None
 
-    def reset(self, undo=False):
+    @debugAnounce
+    def reset(self):
         self.grid: list[list[str]] = [["", "", ""], ["", "", ""], ["", "", ""]]
         self.players: list[str] = ["X", "O"]
         self.currentPlayer: int = 0
         self.turns: int = 0
         self.winner = None
         self.action: str = ""
-        if not undo:
-            self.history = []
-        else:
-            if 0 < len(self.history):
-                self.history.pop()
-                oldHist = self.history
-                self.history = []
-                for play in oldHist:
-                    self.play(*play)
+        self.history = []
 
+    @debugAnounce
+    def resetFuture(self):
+        self.future = []
+
+    @debugAnounce
+    def undo(self):
+        if 0 < len(self.history):
+            self.future.append(self.history.pop())
+            oldHist = self.history
+            self.reset()
+            for play in oldHist:
+                self.play(*play, retainFuture=True)
+
+    @debugAnounce
+    def redo(self):
+        if 0 < len(self.future):
+            self.play(*self.future.pop(), retainFuture=True)
+
+    @debugAnounce
     def incrementPlayer(self):
         self.currentPlayer += 1
         if len(self.players) <= self.currentPlayer:
             self.currentPlayer = self.currentPlayer % len(self.players)
 
-    def play(self, x: int, y: int) -> bool:
-        if self.grid[x][y] == "":
-            self.history.append([x, y])
-            self.grid[x][y] = self.players[self.currentPlayer]
-            self.incrementPlayer()
-            self.turns += 1
-            self.checkForWinner()
-            print(self.history)
-            return True
-        else:
-            return False
+    @debugAnounce
+    def play(self, x: int, y: int, retainFuture=False) -> bool:
+        if self.winner == None:
+            if self.grid[x][y] == "":
+                self.history.append([x, y])
+                self.grid[x][y] = self.players[self.currentPlayer]
+                self.incrementPlayer()
+                self.turns += 1
+                self.checkForWinner()
+                if not retainFuture:
+                    self.resetFuture()
+
+                return True
+        return False
 
     def checkForWinner(self):
         for g in (self.grid, rotate(self.grid)):
@@ -75,6 +109,11 @@ class TTTBoard:
         if 9 <= self.turns and self.winner == None:
             self.winner = "No One"
         return self.winner
+
+    def declareWinner(self, winner, action):
+        if self.winner == None:
+            self.winner = winner
+            self.action = action
 
 
 class TTTController:
@@ -112,25 +151,25 @@ class TTTController:
             pressedNumber = self.waitForKeyPress()
             if pressedNumber == 9:
                 if "O" == self.game.players[self.game.currentPlayer]:
-                    self.game.winner = "X"
-                    self.game.action = "O resigned"
+                    self.game.declareWinner("X", "O resigned")
                     return
             elif pressedNumber == 10:
-                self.game.winner = "Shared"
-                self.game.action = "Draw"
+                if self.game.winner == None:
+                    self.game.declareWinner("Shared", "Draw")
+                else:
+                    self.game.reset()
                 return
             elif pressedNumber == 11:
                 if "X" == self.game.players[self.game.currentPlayer]:
-                    self.game.winner = "O"
-                    self.game.action = "X resigned"
+                    self.game.declareWinner("O", "X resigned")
                     return
             elif pressedNumber == 12:
                 pass
             elif pressedNumber == 13:
-                pass
+                self.game.redo()
+                return
             elif pressedNumber == 14:
-                self.game.reset(undo=True)
-                self.displayBoard()
+                self.game.undo()
                 return
             else:
                 x = int(pressedNumber / 3)
@@ -168,7 +207,11 @@ class TTTController:
 
     def displayBoard(self):
         print("\n" * 4)
-        # print(self.game.grid)
+
+        debugMessage(f"{self.game.history=}")
+        debugMessage(f"{self.game.future=}")
+
+        debugMessage(self.game.grid)
 
         # pixelBoard
         lc = 0
@@ -178,13 +221,15 @@ class TTTController:
                 lc += 1
 
         if self.game.winner != None:
-            for i in (9, 10, 11):
+            print(
+                f"""The winner is\n    {self.game.checkForWinner()}.\n{ self.game.action }"""
+            )
+            for i in (9, 11):
                 self.macropad.pixelColor(
                     i, self.playerColors[self.game.winner]["winner"]
                 )
         else:
             boardColor = {10: 0x222222}
-
             for s in [9, "X"], [11, "O"]:
                 boardColor[s[0]] = self.playerColors[s[1]]["inactive"]
                 if s[1] == self.game.players[self.game.currentPlayer]:
@@ -202,16 +247,11 @@ class TTTController:
             )
 
     def loop(self):
+        self.game.reset()
         while True:
-            self.game.reset()
+            time.sleep(0.001)
             self.displayBoard()
-            while not self.game.checkForWinner():
-                self.play()
-                self.displayBoard()
-            print(
-                f"\n\n\n\nThe winner is\n    {self.game.checkForWinner()}.\n{ self.game.action }"
-            )
-            self.waitForKeyPress([9, 10, 11])
+            self.play()
 
 
 class BaseController:
