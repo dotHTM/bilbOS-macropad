@@ -2,18 +2,31 @@
   "folders": [
   {
     "path": ".",
-  },],
+  }, ],
 
   "build_systems": [
-    {
-      "name": "Get Libs",
-      "working_dir": "$project_path",
-      "shell_cmd": "make install",
-    },
-    {
-      "name": "rsync to device",
-      "working_dir": "$project_path",
-      "shell_cmd": "make xfer",
-    }
-  ],
+  {
+    "name": "Get Libs",
+    "working_dir": "$project_path",
+    "shell_cmd": "make install",
+  },
+  
+  {
+    "name": "ready code",
+    "working_dir": "$project_path",
+    "shell_cmd": "make precommit xfer",
+  },
+  
+  
+  
+  {
+    "name": "rsync to device",
+    "working_dir": "$project_path",
+    "shell_cmd": "make xfer",
+  },
+  {
+    "name": "reorder imports",
+    "working_dir": "$project_path",
+    "shell_cmd": "make precommit",
+  }],
 }

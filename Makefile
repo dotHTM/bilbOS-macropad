@@ -46,3 +46,10 @@ xfer:
 		--exclude lib
 	circup install -r requirements.txt
 	circup install -a
+
+
+precommit:
+	-find ./app -iname "*.py" -exec reorder-python-imports {} +
+
+
+
