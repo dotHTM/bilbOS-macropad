@@ -2,23 +2,23 @@ import adafruit_macropad
 
 
 class ExtendedMacropad(adafruit_macropad.MacroPad):
-
-    encoder_delta = 0
-    encoder_direction = 0
-
-    _old_encoder = 0
-
-    pressedKeys = []
-    newPressedKeys = []
-    newReleasedKeys = []
-
     def __init__(
         self,
         rotation=0,
         midi_in_channel=1,
         midi_out_channel=1,
     ):
-        super().__init__(rotation, midi_in_channel, midi_out_channel)
+        super(ExtendedMacropad, self).__init__(
+            rotation, midi_in_channel, midi_out_channel
+        )
+        self.encoder_delta = 0
+        self.encoder_direction = 0
+        self._old_encoder = 0
+        self.pressedKeys = []
+        self.newPressedKeys = []
+        self.newReleasedKeys = []
+
+        ExtendedMacropad.theMacroPad = self
 
     def pixelColor(self, index, newColor):
         if self.pixels != None and 0 <= index and index < len(self.pixels):

@@ -1,6 +1,10 @@
 class Application:
-    def __init__(self):
+    def __init__(self) -> None:
         # super(Application, self).__init__()
+
+        self.name = "Application"
+
+        self.displayType = None
 
         self._FocusFunc = None
         self._FocusLostFunc = None
@@ -12,20 +16,7 @@ class Application:
 
         self.canvas = [0 for _ in range(12)]
 
-        self._Buttons = [
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-        ]
+        self._Buttons = [ [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None] ]
 
     def onFocus(self, func):
         if callable(func):
@@ -98,3 +89,6 @@ class Application:
 
     def update(self):
         pass
+
+    def displayUpdate(self):
+        return
