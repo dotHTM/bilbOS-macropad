@@ -16,20 +16,7 @@ class Application:
 
         self.canvas = [0 for _ in range(12)]
 
-        self._Buttons = [
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-            [None, None],
-        ]
+        self._Buttons = [ [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None], [None, None] ]
 
     def onFocus(self, func):
         if callable(func):
