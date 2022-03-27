@@ -1,8 +1,12 @@
 {
   "folders": [
   {
-    "path": ".",
-  }, ],
+    "path": "app",
+  },    {
+			"path": ".",
+      "folder_exclude_patterns": ["app"]
+		},
+  ],
 
   "build_systems": [
   {
@@ -10,15 +14,15 @@
     "working_dir": "$project_path",
     "shell_cmd": "make install",
   },
-  
+
   {
     "name": "ready code",
     "working_dir": "$project_path",
     "shell_cmd": "make precommit xfer",
   },
-  
-  
-  
+
+
+
   {
     "name": "rsync to device",
     "working_dir": "$project_path",

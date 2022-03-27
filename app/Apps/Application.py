@@ -1,6 +1,10 @@
 class Application:
-    def __init__(self):
+    def __init__(self) -> None:
         # super(Application, self).__init__()
+
+        self.name = "Application"
+
+        self.displayType = None
 
         self._FocusFunc = None
         self._FocusLostFunc = None
@@ -98,3 +102,6 @@ class Application:
 
     def update(self):
         pass
+
+    def displayUpdate(self):
+        return
