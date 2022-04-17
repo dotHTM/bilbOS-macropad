@@ -3,8 +3,8 @@ from time import sleep
 from Apps.Application import Application
 from Apps.PushPaint import PushPaint
 from Suppliment.Keyboard import KeyData
-from views.DisplayGrid import DisplayAbstraction
-from views.ExtendedMacropad import ExtendedMacropad
+from Views.DisplayGrid import DisplayAbstraction
+from Views.ExtendedMacropad import ExtendedMacropad
 
 
 class Menu:
@@ -37,14 +37,12 @@ class Menu:
 
     def updateDisplay(self):
         if self.currentApp.displayType != self.displayType:
-            print("changing view")
+            self.hardware.display.show(None)
             if isinstance(self.currentApp.displayType, type):
-                print("its advanced")
                 self.display = None
                 self.displayType = self.currentApp.displayType
                 self.display = self.currentApp.displayType(self.hardware.display)
             else:
-                print("its plain")
                 self.display = None
                 self.displayType = None
 
@@ -107,6 +105,14 @@ class Menu:
         self.currentApp.update()
         for i in range(12):
             self.hardware.pixels[i] = self.currentApp.canvas[i]
+
+            for pressKey in self.currentApp.kcPressBuffer:
+                self.hardware.keyboard.press(pressKey)
+            self.currentApp.kcPressBufferClear()
+
+            for releaseKey in self.currentApp.kcReleaseBuffer:
+                self.hardware.keyboard.release(releaseKey)
+            self.currentApp.kcReleaseBufferClear()
 
     def loop(self):
         while True:
