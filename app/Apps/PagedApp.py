@@ -32,7 +32,7 @@ class Button:
         Button.count += 1
 
     def __repr__(self) -> str:
-        return f"<Button({self.name}, {self.keycode}, ...)>"
+        return f"<Button({self.name} ...)>"
 
 
 class PagedApp(Application):

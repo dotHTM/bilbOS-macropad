@@ -37,14 +37,12 @@ class Menu:
 
     def updateDisplay(self):
         if self.currentApp.displayType != self.displayType:
-            print("changing view")
+            self.hardware.display.show(None)
             if isinstance(self.currentApp.displayType, type):
-                print("its advanced")
                 self.display = None
                 self.displayType = self.currentApp.displayType
                 self.display = self.currentApp.displayType(self.hardware.display)
             else:
-                print("its plain")
                 self.display = None
                 self.displayType = None
 

@@ -4,6 +4,10 @@ from adafruit_hid.keycode import Keycode as kc
 
 
 class KeyData:
+
+    # static properties
+    _byName = {}
+
     @staticmethod
     def normalizeName(name: str) -> str:
         res = name
@@ -17,8 +21,6 @@ class KeyData:
         if testName in KeyData._byName:
             return KeyData._byName[testName]
         return None
-
-    _byName = {}
 
     def __init__(self, keycode, name: str) -> None:
         self.keycode = keycode

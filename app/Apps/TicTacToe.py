@@ -2,15 +2,15 @@ from time import sleep
 
 from Apps.Application import Application
 from utils import debugMessage
-from utils import rotate
+from utils import rotate, transpose
+from views.DisplayGrid import Grid12
 
 
 class Board:
-    history = []
-    future = []
-
     def __init__(self) -> None:
         self.reset()
+        self.history = []
+        self.future = []
 
     @property
     def lastPlay(self):
@@ -24,6 +24,7 @@ class Board:
         self.currentPlayer: int = 0
         self.turns: int = 0
         self.winner = None
+        self.winningTriple = None
         self.action: str = ""
         self.history = []
 
@@ -57,22 +58,34 @@ class Board:
                 self.hasWinner
                 if not retainFuture:
                     self.resetFuture()
-
                 return True
         return False
 
     @property
     def hasWinner(self):
-        for g in (self.grid, rotate(self.grid)):
-            for row in g:
+
+        for t, g in enumerate([self.grid, transpose(self.grid)]):
+            for r, row in enumerate(g):
                 if row[0] in self.players:
                     if row[0] == row[1] and row[0] == row[2]:
                         self.winner = row[0]
+                        if t == 0:
+                            self.winningTriple = ((r, 0), (r, 1), (r, 2))
+                        else:
+                            self.winningTriple = ((0, r), (1, r), (2, r))
+
+        for r, g in enumerate([self.grid, rotate(self.grid)]):
             if g[0][0] in self.players:
                 if g[0][0] == g[1][1] and g[0][0] == g[2][2]:
                     self.winner = g[0][0]
+                    if r == 0:
+                        self.winningTriple = ((0, 0), (1, 1), (2, 2))
+                    else:
+                        self.winningTriple = ((0, 2), (1, 1), (2, 0))
+
         if 9 <= self.turns and self.winner == None:
             self.winner = "No One"
+
         return self.winner
 
     def declareWinner(self, winner, action):
@@ -89,6 +102,8 @@ class TicTacToe(Application):
     def __init__(self) -> None:
         super(TicTacToe, self).__init__()
         self.game = Board()
+
+        self.displayType = Grid12
 
         def updateScreen():
             print("\n" * 4)
@@ -203,3 +218,49 @@ class TicTacToe(Application):
             (x, y) = self.game.lastPlay
             index = x * 3 + y
             self.canvas[index] = self.playerColors[self.game.grid[x][y]]["lastPlay"]
+
+    def displayUpdate(self):
+
+        labels = []
+
+        noOneGrid = [
+            ["No", "One", "Wins!"],
+            ["", "", ""],
+            ["", "SHAME!", ""],
+        ]
+
+        sharedGrid = [
+            ["Shared", "Win", ": D"],
+            ["", "", ""],
+            ["1/2", "Point", "Each"],
+        ]
+
+        resignedGrid = [
+            ["", "", ""],
+            [self.game.winner, "has", "won"],
+            ["", "", ""],
+        ]
+
+        for i, row in enumerate(self.game.grid):
+            for j, e in enumerate(row):
+                if self.game.winner == "No One":
+                    labels.append(noOneGrid[i][j])
+                elif self.game.winner == "Shared":
+                    labels.append(sharedGrid[i][j])
+                elif self.game.winner:
+                    if self.game.winningTriple:
+                        if (i, j) in self.game.winningTriple:
+                            labels.append(e)
+                        else:
+                            labels.append("")
+                    else:
+                        labels.append(resignedGrid[i][j])
+                else:
+                    labels.append(e)
+
+        labels.extend(["Rsgn X", "Draw", "Rsgn O"])
+
+        return {
+            "title": self.name,
+            "labels": labels,
+        }
