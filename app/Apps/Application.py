@@ -1,3 +1,6 @@
+from adafruit_hid.keycode import Keycode
+
+
 class Application:
     def __init__(self) -> None:
         # super(Application, self).__init__()
@@ -16,7 +19,13 @@ class Application:
 
         self.canvas = [0 for _ in range(12)]
 
+        self.kcPressBuffer = []
+        self.kcPressBufferClear()
+        self.kcReleaseBuffer = []
+        self.kcReleaseBufferClear()
+
         self._Buttons = [
+            # [pressed_action, released_action],
             [None, None],
             [None, None],
             [None, None],
@@ -30,6 +39,34 @@ class Application:
             [None, None],
             [None, None],
         ]
+
+    def kcPress(self, kcInput):
+        if isinstance(kcInput, Keycode):
+            kcInput = [kcInput]
+
+        def inner():
+            if isinstance(kcInput, list):
+                for kc in kcInput:
+                    self.kcPressBuffer.append(kc)
+
+        return inner
+
+    def kcRelease(self, kcInput):
+        if isinstance(kcInput, Keycode):
+            kcInput = [kcInput]
+
+        def inner():
+            if isinstance(kcInput, list):
+                for kc in kcInput:
+                    self.kcReleaseBuffer.append(kc)
+
+        return inner
+
+    def kcPressBufferClear(self):
+        self.kcPressBuffer = []
+
+    def kcReleaseBufferClear(self):
+        self.kcReleaseBuffer = []
 
     def onFocus(self, func):
         if callable(func):

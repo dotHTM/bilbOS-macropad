@@ -3,8 +3,8 @@ from time import sleep
 from Apps.Application import Application
 from Apps.PushPaint import PushPaint
 from Suppliment.Keyboard import KeyData
-from views.DisplayGrid import DisplayAbstraction
-from views.ExtendedMacropad import ExtendedMacropad
+from Views.DisplayGrid import DisplayAbstraction
+from Views.ExtendedMacropad import ExtendedMacropad
 
 
 class Menu:
@@ -105,6 +105,14 @@ class Menu:
         self.currentApp.update()
         for i in range(12):
             self.hardware.pixels[i] = self.currentApp.canvas[i]
+
+            for pressKey in self.currentApp.kcPressBuffer:
+                self.hardware.keyboard.press(pressKey)
+            self.currentApp.kcPressBufferClear()
+
+            for releaseKey in self.currentApp.kcReleaseBuffer:
+                self.hardware.keyboard.release(releaseKey)
+            self.currentApp.kcReleaseBufferClear()
 
     def loop(self):
         while True:

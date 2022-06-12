@@ -1,76 +1,70 @@
-import time
+# import time
 
 from Apps.Blinky import Blinky
 from Apps.Menu import Menu
-from Apps.PagedApp import Button
-from Apps.PagedApp import PagedApp
+
+# from Apps.PagedApp import Button
+# from Apps.PagedApp import PagedApp
+# from Apps.PagedApp import KeyBoardApp
+
+from Apps.KeyBoardApp import KeyBoardApp, WASD, Numpad, AnimeBoxesController, Phonepad
 from Apps.PushPaint import PushPaint
 from Apps.Rainbow import Rainbow
 from Apps.TicTacToe import TicTacToe
 from rainbowio import colorwheel
-from views.ExtendedMacropad import ExtendedMacropad
+from Views.ExtendedMacropad import ExtendedMacropad
+
+from adafruit_hid.keycode import Keycode as KC
 
 
-def kb(k, i, r):
-    return PagedApp(
-        keyList=k,
-        fillDirection=i,
-        reverse=r,
-        scrollPage=True,
-    )
+# def kb(keyboard, k, i, r):
+#     return KeyBoardApp(
+#         keyboard=keyboard,
+#         kcListList=k,
+#         fillDirection=i,
+#         reverse=r,
+#         scrollPage=True,
+#     )
 
 
-def testPress(i, b):
-    def inner():
-        print(f"    # v {i:>4} {b:>4}")
+# def testPress(i, b):
+#     def inner():
+#         print(f"    # v {i:>4} {b:>4}")
 
-    return inner
-
-
-def testRelease(i, b):
-    def inner():
-        print(f"    # ^ {i:>4} {b:>4}")
-
-    return inner
+#     return inner
 
 
-def setupKeyList():
-    ret = []
-    exampleButtons = [
-        e.upper() for e in "1234567890qwertyuiopasdfghjklzxcvbnm-=[];',./`"
+# def testRelease(i, b):
+#     def inner():
+#         print(f"    # ^ {i:>4} {b:>4}")
+
+#     return inner
+
+
+def applist(hardware):
+    # kl = setupKeyList()
+
+    ekc = [e for e in "qwerasdfzxcv"]
+
+    return [
+        WASD(),
+        Numpad(),
+        TicTacToe(),
+        Blinky(),
+        PushPaint(),
+        Rainbow(),
+        AnimeBoxesController(),
+        Phonepad(),
     ]
-    examplePageSize = len(exampleButtons)
-    for i, b in enumerate(exampleButtons):
-
-        btn = Button(
-            name=b,
-            colorPressed=0xFFFFFF,
-            colorReleased=colorwheel(255 / examplePageSize * i),
-            pressFunc=testPress(i, b),
-            releaseFunc=testRelease(i, b),
-        )
-
-        btn.pressFunc()
-
-        ret.append(btn)
-    return ret
 
 
 def main():
-
-    kl = setupKeyList()
 
     hardware = ExtendedMacropad()
 
     menu = Menu(
         hardware=hardware,
-        appList=[
-            kb(kl, 0, False),
-            TicTacToe(),
-            Blinky(),
-            PushPaint(),
-            Rainbow(),
-        ],
+        appList=applist(hardware),
     )
     while True:
         menu.update()

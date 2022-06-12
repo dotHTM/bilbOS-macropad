@@ -3,7 +3,7 @@ from time import sleep
 from Apps.Application import Application
 from utils import debugMessage
 from utils import rotate, transpose
-from views.DisplayGrid import Grid12
+from Views.DisplayGrid import Grid12
 
 
 class Board:
@@ -19,7 +19,11 @@ class Board:
         return None
 
     def reset(self):
-        self.grid: list[list[str]] = [["", "", ""], ["", "", ""], ["", "", ""]]
+        self.grid: list[list[str]] = [
+            ["", "", ""],
+            ["", "", ""],
+            ["", "", ""],
+        ]
         self.players: list[str] = ["X", "O"]
         self.currentPlayer: int = 0
         self.turns: int = 0
@@ -101,8 +105,9 @@ class Board:
 class TicTacToe(Application):
     def __init__(self) -> None:
         super(TicTacToe, self).__init__()
-        self.game = Board()
+        self.name = "TicTacToe"
 
+        self.game = Board()
         self.displayType = Grid12
 
         def updateScreen():

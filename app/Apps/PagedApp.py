@@ -1,3 +1,8 @@
+# from typing import Union
+from Suppliment.Keyboard import KeyData
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+
 import json
 import re
 
@@ -5,34 +10,8 @@ from Apps.Application import Application
 from displayio import Display
 from utils import rotate
 from utils import transpose
-from views.DisplayGrid import Grid12
-
-
-class Button:
-    """Button Object, stores onPress, onRelease, and color for both states"""
-
-    count = 0
-
-    def __init__(
-        self,
-        name="unk",
-        pressFunc=None,
-        releaseFunc=None,
-        colorReleased=0x0,
-        colorPressed=0xFFFFFF,
-    ):
-        super(Button, self).__init__()
-
-        self.name = name
-        self.colorPressed = colorPressed
-        self.colorReleased = colorReleased
-        self.pressFunc = pressFunc
-        self.releaseFunc = releaseFunc
-
-        Button.count += 1
-
-    def __repr__(self) -> str:
-        return f"<Button({self.name} ...)>"
+from Views.DisplayGrid import Grid12
+from Apps.Button import Button
 
 
 class PagedApp(Application):
@@ -189,3 +168,26 @@ class PagedApp(Application):
             return inner
 
         return [buttonAction(i) for i in range(12)]
+
+
+class KeyBoardApp(PagedApp):
+    def __init__(
+        self,
+        keyboard: Keyboard,
+        KeyButtonList=[],
+        fillDirection: int = 0,
+        reverse=False,
+        scrollPage=False,
+    ) -> None:
+        self.keyboard = keyboard
+        keyList = []
+        for e in kcListList:
+            btn = Button(
+                name=e,
+                keycode=KeyData.byName(e).keycode,
+                colorPressed=0xFFFFFF,
+                colorReleased=0xFFAAAA,
+            )
+            keyList.append(btn)
+
+        super().__init__(keyList, fillDirection, reverse, scrollPage)
