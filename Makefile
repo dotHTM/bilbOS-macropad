@@ -1,55 +1,65 @@
 
+currentCPRelease ?= 20250625
 
+DEVICE ?= /Volumes/CIRCUITPY
+VENV ?= .venv
 
-currentCPRelease := 20220127
+default: install
+
+PYTHON := $(VENV)/bin/python
+PIP := $(VENV)/bin/pip
+CIRCUP := $(VENV)/bin/circup
+
+$(VENV)/bin/activate:
+	virtualenv $(VENV)
+	$(PIP) install --upgrade pip
+
 source := https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download
 archive := adafruit-circuitpython-bundle-py-${currentCPRelease}.zip
 downloadDir := downloads
 downloadPath := ${downloadDir}/${archive}
 libDir := lib
 
+downloadURL := ${source}/${currentCPRelease}/${archive}
+
 dotZip := .zip
-emptystr := 
+emptystr :=
 
 unarchivedDir = $(subst ${dotZip},${emptystr},${downloadPath})
 
-default: install
-
 clean:
-	-rm -rf ${libDir}
-	-rm -rf ${downloadDir}
+	-rm -rf "${libDir}"
+	-rm -rf "${downloadDir}"
+	-rm -rf "${VENV}"
 
 ${downloadPath}:
-	mkdir -p ${downloadDir}
-	curl -L "${source}/${currentCPRelease}/${archive}" -o "${downloadPath}"
+	mkdir -p "${downloadDir}"
+	curl -L "${downloadURL}" -o "${downloadPath}"
 
 download: ${downloadPath}
 
-install: ${downloadPath} requirements-dev.txt
-	-rm -rf ${libDir}
-	unzip -o "${downloadPath}" -d ${downloadDir}
-	mv "${unarchivedDir}/lib" ${libDir}
-	pip3 install -r requirements-dev.txt
-	@echo 
-	@echo 
-	@echo "Remember to add '${shell pwd}/lib' to PYTHONPATH "
-	@echo 
+install: ${downloadPath} requirements-dev.txt $(VENV)/bin/activate
+	-rm -rf "${libDir}"
+	unzip -o "${downloadPath}" -d "${downloadDir}"
+	mv "${unarchivedDir}"/lib "${libDir}"
+	"$(PIP)" install -r requirements-dev.txt
 
-xfer:
+sweep:
 	find . -iname "._*" -delete
 	find . -iname ".DS" -delete
-	rsync -hav --delete app/ /Volumes/CIRCUITPY \
+
+device_clean:
+	rm -rf "${DEVICE}"/lib
+
+xfer: sweep
+	rsync -hav --delete app/ "${DEVICE}" \
 		--exclude .Trashes \
 		--exclude .DS_Store \
 		--exclude .Spotlight-V100 \
 		--exclude boot_out.txt \
 		--exclude lib
-	circup install -r requirements.txt
-	circup install -a
+	"${CIRCUP}" install -r requirements.txt
+	"${CIRCUP}" install -a
 
-
-precommit:
-	-find ./app -iname "*.py" -exec reorder-python-imports {} +
-
-
-
+eject:
+	diskutil eject "${DEVICE}"
