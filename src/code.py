@@ -48,14 +48,14 @@ def applist(hardware):
     ekc = [e for e in "qwerasdfzxcv"]
 
     return [
-        Apps.KeyBoardApp.WASD()
-        # Apps.KeyBoardApp.Numpad()
-        # Apps.TicTacToe.TicTacToe(),
-        # Apps.Blinky.Blinky(),
-        # Apps.PushPaint.PushPaint(),
-        # Apps.Rainbow.Rainbow(),
-        # Apps.KeyBoardApp.AnimeBoxesController()
-        # Apps.KeyBoardApp.Phonepad()
+        Apps.KeyBoardApp.WASD(),
+        Apps.KeyBoardApp.Numpad(),
+        Apps.TicTacToe.TicTacToe(),
+        Apps.Blinky.Blinky(),
+        Apps.PushPaint.PushPaint(),
+        Apps.Rainbow.Rainbow(),
+        Apps.KeyBoardApp.AnimeBoxesController(),
+        Apps.KeyBoardApp.Phonepad(),
     ]
 
 

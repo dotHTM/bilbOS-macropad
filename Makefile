@@ -53,12 +53,15 @@ sweep:
 device_clean:
 	rm -rf "${DEVICE}"/lib
 
+load: xfer
+
 xfer: sweep
 	rsync \
 		--human-readable \
 		--archive \
 		--verbose \
 		--delete \
+		--exclude ._* \
 		--exclude .Trashes \
 		--exclude .fseventsd \
 		--exclude .DS_Store \
