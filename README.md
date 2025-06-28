@@ -14,7 +14,9 @@ Applications for the [Adafruit RP2040 3x4 Macropad](https://www.adafruit.com/pro
 3. Connect your device in disk mode.
 4. Open this directory in a terminal window (MacOS) and run `make install load` to setup and load onto your device.
 5. ??? (optionally test/debug on a screen session).
-6. Run `make eject` to eject the disk to safely close the filesystem. If you just disconnect, you may corrupt your data
+6. Run `make eject` to eject the disk to safely close the filesystem. If you just disconnect, you may corrupt your data.
+
+When the device connects, it will boot with diskmode disabled. To re-enable diskmode, reset or after connecting: tap the button under the first key which should be blinking yellow (should display `>> 3` temporarily) and then it should say "DiskMode". Otherwise you can always reset the device/firmware or re-enable diskmode (the hard way) via the serial connection by removing the boot.py file.
 
 # What's Currently Implemented:
 

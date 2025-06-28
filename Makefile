@@ -53,7 +53,7 @@ sweep:
 device_clean:
 	rm -rf "${DEVICE}"/lib
 
-load: xfer
+load: xfer requirements
 
 xfer: sweep
 	rsync \
@@ -69,9 +69,14 @@ xfer: sweep
 		--exclude boot_out.txt \
 		--exclude lib \
 		src/ "${DEVICE}"
-	@echo installing requirements to board
+
+requirements:
+	${MAKE} requirements
+
+requirements: requirements.txt
+	@echo "installing requirements to board"
 	"${CIRCUP}" install -r requirements.txt
-	@echo installing -a to board
+	@echo "installing -a to board"
 	"${CIRCUP}" install -a
 
 eject:
