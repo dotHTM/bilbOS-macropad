@@ -28,7 +28,7 @@ class Grid12(DisplayAbstraction):
         print(f"{len(self.labelTexts)=}")
 
         self.main_group = Group()
-        self.display.show(self.main_group)
+        self.display.root_group = self.main_group
         self.titleLabel = label.Label(
             y=4,
             font=terminalio.FONT,

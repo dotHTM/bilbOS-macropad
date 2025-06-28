@@ -1,16 +1,17 @@
 # import time
 
-from Apps.Blinky import Blinky
 from Apps.Menu import Menu
 
 # from Apps.PagedApp import Button
 # from Apps.PagedApp import PagedApp
 # from Apps.PagedApp import KeyBoardApp
 
-from Apps.KeyBoardApp import KeyBoardApp, WASD, Numpad, AnimeBoxesController, Phonepad
-from Apps.PushPaint import PushPaint
-from Apps.Rainbow import Rainbow
-from Apps.TicTacToe import TicTacToe
+import Apps.KeyBoardApp
+import Apps.TicTacToe
+import Apps.Blinky
+import Apps.PushPaint
+import Apps.Rainbow
+
 from rainbowio import colorwheel
 from Views.ExtendedMacropad import ExtendedMacropad
 
@@ -47,14 +48,14 @@ def applist(hardware):
     ekc = [e for e in "qwerasdfzxcv"]
 
     return [
-        WASD(),
-        Numpad(),
-        TicTacToe(),
-        Blinky(),
-        PushPaint(),
-        Rainbow(),
-        AnimeBoxesController(),
-        Phonepad(),
+        Apps.KeyBoardApp.WASD()
+        # Apps.KeyBoardApp.Numpad()
+        # Apps.TicTacToe.TicTacToe(),
+        # Apps.Blinky.Blinky(),
+        # Apps.PushPaint.PushPaint(),
+        # Apps.Rainbow.Rainbow(),
+        # Apps.KeyBoardApp.AnimeBoxesController()
+        # Apps.KeyBoardApp.Phonepad()
     ]
 
 

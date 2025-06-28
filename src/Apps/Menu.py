@@ -37,7 +37,7 @@ class Menu:
 
     def updateDisplay(self):
         if self.currentApp.displayType != self.displayType:
-            self.hardware.display.show(None)
+            self.hardware.display.root_group = None
             if isinstance(self.currentApp.displayType, type):
                 self.display = None
                 self.displayType = self.currentApp.displayType

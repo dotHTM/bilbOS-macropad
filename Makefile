@@ -65,8 +65,10 @@ xfer: sweep
 		--exclude .Spotlight-V100 \
 		--exclude boot_out.txt \
 		--exclude lib \
-		app/ "${DEVICE}"
+		src/ "${DEVICE}"
+	@echo installing requirements to board
 	"${CIRCUP}" install -r requirements.txt
+	@echo installing -a to board
 	"${CIRCUP}" install -a
 
 eject:
