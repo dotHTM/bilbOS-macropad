@@ -54,6 +54,7 @@ device_clean:
 xfer: sweep
 	rsync -hav --delete app/ "${DEVICE}" \
 		--exclude .Trashes \
+		--exclude .fseventsd \
 		--exclude .DS_Store \
 		--exclude .Spotlight-V100 \
 		--exclude boot_out.txt \
