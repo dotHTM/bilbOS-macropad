@@ -18,7 +18,7 @@ source := https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/dow
 archive := adafruit-circuitpython-bundle-py-${currentCPRelease}.zip
 downloadDir := downloads
 downloadPath := ${downloadDir}/${archive}
-libDir := lib
+libDir := src/lib
 
 downloadURL := ${source}/${currentCPRelease}/${archive}
 
@@ -52,13 +52,18 @@ device_clean:
 	rm -rf "${DEVICE}"/lib
 
 xfer: sweep
-	rsync -hav --delete app/ "${DEVICE}" \
+	rsync \
+		--human-readable \
+		--archive \
+		--verbose \
+		--delete \
 		--exclude .Trashes \
 		--exclude .fseventsd \
 		--exclude .DS_Store \
 		--exclude .Spotlight-V100 \
 		--exclude boot_out.txt \
-		--exclude lib
+		--exclude lib \
+		app/ "${DEVICE}"
 	"${CIRCUP}" install -r requirements.txt
 	"${CIRCUP}" install -a
 
