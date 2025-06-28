@@ -1,7 +1,8 @@
 .DS_store
+._*
+
 *.sublime-workspace
 
-app/lib
-cpy-lib
-lib
+.venv
+src/lib
 downloads

@@ -10,6 +10,8 @@ PYTHON := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
 CIRCUP := $(VENV)/bin/circup
 
+venv: $(VENV)/bin/activate
+
 $(VENV)/bin/activate:
 	virtualenv $(VENV)
 	$(PIP) install --upgrade pip
