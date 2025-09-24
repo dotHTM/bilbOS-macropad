@@ -1,3 +1,5 @@
+
+adafruit-circuitpython-macropad
 CircuitPython-stubs~=9.2.8
 
 circup

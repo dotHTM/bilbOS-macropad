@@ -1,8 +1,5 @@
 .DS_store
 ._*
-
 *.sublime-workspace
-
 .venv
-src/lib
 downloads
