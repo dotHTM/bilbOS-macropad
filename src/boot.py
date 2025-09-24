@@ -26,11 +26,14 @@ def held_keys_actions(held):
     try:
         if 3 in held:
             print("DiskMode")
-            # storage.remount("/", readonly=False)
+            storage.remount("/", readonly=False)
         else:
             print("ReadOnly")
             usb_cdc.enable(console=True, data=False)
             storage.disable_usb_drive()
+        if 8 in held:
+            print("Bypass")
+            import bypass
 
         sleep(2)
     except Exception as e:
@@ -38,11 +41,11 @@ def held_keys_actions(held):
         sleep(2)
 
 
-print("Booting in")
-held = set()
-for i in reversed(range(3)):
-    print(" ", i, end="")
-    held.update(get_pressed_keys())
-    sleep(1)
-print()
-held_keys_actions(list(held))
+# print("Booting in")
+# held = set()
+# for i in reversed(range(3)):
+#     print(" ", i, end="")
+#     held.update(get_pressed_keys())
+#     sleep(1)
+# print()
+# held_keys_actions(list(held))
