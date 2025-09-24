@@ -7,7 +7,7 @@
 
   "build_systems": [
   {
-    "name": "xfer to device",
+    "name": " Xfer to device",
     "working_dir": "$project_path",
     "cmd": ["make","xfer"],
   },
