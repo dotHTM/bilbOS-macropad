@@ -7,6 +7,13 @@
 
   "build_systems": [
   {
+    "name": "xfer to device",
+    "working_dir": "$project_path",
+    "cmd": ["make","xfer"],
+  },
+
+
+  {
     "name": "Eject Device",
     "working_dir": "$project_path",
     "cmd": ["make","eject"],
@@ -25,11 +32,7 @@
     "cmd": ["make","precommit","xfer"],
   },
 
-  {
-    "name": "rsync to device",
-    "working_dir": "$project_path",
-    "cmd": ["make","xfer"],
-  },
+
   {
     "name": "reorder imports",
     "working_dir": "$project_path",
