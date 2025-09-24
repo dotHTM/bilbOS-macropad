@@ -4,29 +4,35 @@
       {"path":"/Volumes/CIRCUITPY"}
   ],
 
+
   "build_systems": [
+  {
+    "name": "Eject Device",
+    "working_dir": "$project_path",
+    "cmd": ["make","eject"],
+  },
+
+
   {
     "name": "Get Libs",
     "working_dir": "$project_path",
-    "shell_cmd": "make install",
+    "cmd": ["make","install"],
   },
 
   {
     "name": "ready code",
     "working_dir": "$project_path",
-    "shell_cmd": "make precommit xfer",
+    "cmd": ["make","precommit","xfer"],
   },
-
-
 
   {
     "name": "rsync to device",
     "working_dir": "$project_path",
-    "shell_cmd": "make xfer",
+    "cmd": ["make","xfer"],
   },
   {
     "name": "reorder imports",
     "working_dir": "$project_path",
-    "shell_cmd": "make precommit",
+    "cmd": ["make","precommit"],
   }],
 }
